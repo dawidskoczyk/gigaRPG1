@@ -10,9 +10,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private Animator animator;
 
+        private Rigidbody2D playerBody;
+
         private void Start()
         {
             animator = GetComponent<Animator>();
+
+            playerBody = GetComponent<Rigidbody2D>();
         }
 
 
@@ -45,6 +49,11 @@ namespace Cainos.PixelArtTopDown_Basic
             animator.SetBool("IsMoving", dir.magnitude > 0);
 
             GetComponent<Rigidbody2D>().velocity = speed * dir;
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector3(playerBody.velocity.x, playerBody.velocity.y+5, 10);
+            }
         }
     }
 }
