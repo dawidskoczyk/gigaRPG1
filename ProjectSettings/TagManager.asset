@@ -44,9 +44,12 @@ TagManager:
   - name: "t\u0142o"
     uniqueID: 2425651459
     locked: 0
-  - name: front
-    uniqueID: 4189426099
+  - name: "ty\u0142"
+    uniqueID: 3912442559
     locked: 0
   - name: gracz
     uniqueID: 4250941897
+    locked: 0
+  - name: front
+    uniqueID: 4189426099
     locked: 0
