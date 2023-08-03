@@ -53,3 +53,6 @@ TagManager:
   - name: front
     uniqueID: 4189426099
     locked: 0
+  - name: obiekty
+    uniqueID: 3848579959
+    locked: 0
