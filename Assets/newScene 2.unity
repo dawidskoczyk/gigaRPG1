@@ -884,18 +884,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010733147214840828, guid: e721fe9f3ee4dc245961782ab53113f2,
         type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2010733147214840828, guid: e721fe9f3ee4dc245961782ab53113f2,
-        type: 3}
       propertyPath: m_Constraints
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2010733147214840828, guid: e721fe9f3ee4dc245961782ab53113f2,
-        type: 3}
-      propertyPath: m_SleepingMode
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2832697157774898007, guid: e721fe9f3ee4dc245961782ab53113f2,
         type: 3}
