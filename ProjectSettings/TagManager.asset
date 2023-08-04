@@ -47,6 +47,9 @@ TagManager:
   - name: "ty\u0142"
     uniqueID: 3912442559
     locked: 0
+  - name: front za graczem
+    uniqueID: 2723867807
+    locked: 0
   - name: cienie
     uniqueID: 2783238341
     locked: 0
